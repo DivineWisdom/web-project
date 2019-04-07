@@ -1,0 +1,80 @@
+#fill{
+    background-color: #ffffff;
+     border: 2px solid rgb(201, 18, 18); 
+	width: 700px;
+	height: 600px;
+    text-align: left; 
+}
+#side{
+    float: right;
+    background-color: #3b3535;
+    border: 2px white;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    margin-top: -506px;
+    margin-right: 100px;
+    color: white;
+}
+
+.contact-form{
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+cursor:pointer;
+	width:100%;
+	border:2px solid black;
+	background:rgb(104, 110, 165);
+	background-image:linear-gradient(bottom, rgb(89, 123, 173) 0%, rgb(89, 125, 192) 52%);
+	background-image:-moz-linear-gradient(bottom, rgb(87, 116, 143) 0%, rgb(72, 141, 187) 52%);
+	background-image:-webkit-linear-gradient(bottom, rgb(89, 147, 180) 0%, rgb(89, 148, 196) 52%);
+	color:rgb(255, 255, 255);
+	margin:0 0 10px;
+	padding:15px;
+	border-radius:15px;
+}
+#name {
+	height: 50px;
+	width: 120px;
+	padding: 15px;
+}
+#email{
+	width: 50px;
+	height:120px;
+	padding: 15px;
+}
+#message{
+
+}
+
+#textarea {
+
+	
+}
+
+#contact-form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:2px solid black;
+	background:rgb(104, 110, 165);
+	background-image:linear-gradient(bottom, rgb(89, 123, 173) 0%, rgb(89, 125, 192) 52%);
+	background-image:-moz-linear-gradient(bottom, rgb(87, 116, 143) 0%, rgb(72, 141, 187) 52%);
+	background-image:-webkit-linear-gradient(bottom, rgb(89, 147, 180) 0%, rgb(89, 148, 196) 52%);
+	color:rgb(255, 255, 255);
+	margin:0 0 10px;
+	padding:15px;
+	border-radius:15px;
+}
+
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}

@@ -1,0 +1,211 @@
+/* roots */
+
+:root {
+    --default-bgcolor: #666448;
+    --default-fadecolor: #AFB7A9;
+    --default-border: 10px;
+    --default-block1-bgcolor: #2A5BF9;
+    --default-header: 2rem;
+    --default-navbar: #333;
+    --default-navbar-hover: #080808;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+
+/* HEADER AND NAVIGATION */
+
+div.header #navbar {
+    z-index: 90;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.header .header-form a {
+    color: var(--default-bgcolor);
+}
+
+div.header .header-form a:hover {
+    color: var(--default-navbar);
+    font-variant: small-caps;
+}
+
+div.header #navbar .p-2 {
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+
+div.header #navbar div:hover {
+    background: var(--default-hover);
+}
+
+div.header #navbar #home {
+    border: none;
+}
+
+div.header #navbar:last-child .p-2 {
+    border-right: none;
+}
+
+div.header #navbar {
+    overflow: hidden;
+    height: 50px;
+    text-align: center;
+    background-color: var(--default-navbar);
+}
+
+div.header #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.header .content {
+    padding: 16px;
+}
+
+div.header .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+div.header .sticky.content {
+    padding-top: 60px;
+}
+
+div.footer {
+    background: var(--default-navbar);
+    color: white;
+    display: grid;
+    grid-template-areas: "link contact comment" "end end end";
+}
+
+div.footer a {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+}
+
+div.footer a:hover {
+    color: var(--default-bgcolor);
+}
+
+div.footer span {
+    margin-right: 5px;
+}
+
+div.footer i {
+    color: var(--default-bgcolor);
+}
+
+div.footer .links {
+    grid-area: link;
+    padding-left: 10px;
+}
+
+div.footer .links a {
+    color: #fff;
+    color: rgba(255, 255, 255, .5);
+    font-variant: small-caps;
+}
+
+div.footer .links h3 {
+    text-align: left;
+}
+
+div.footer .links a:hover {
+    color: var(--default-navbar);
+    background: var(--default-fadecolor);
+}
+
+div.footer p.last {
+    text-align: center;
+}
+
+div.footer ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+div.footer .contacts {
+    grid-area: contact;
+    padding-left: 10px;
+}
+
+div.footer .contacts h3 {
+    text-align: left;
+}
+
+div.footer .fields {
+    grid-area: comment;
+    padding: 0px 10px 10px 10px;
+}
+
+div.footer .fields .form .input .mail,
+.com {
+    --default-border: 5px;
+    border-radius: var(--default-border);
+}
+
+div.footer .fields .form .mail {
+    width: 100%;
+}
+
+div.footer .fields .form h3 {
+    text-align: left;
+}
+
+div.footer .fields .form .input .com {
+    padding: 10px 5px 1px 5px;
+    width: 100%;
+    min-height: 100px;
+}
+
+div.end {
+    background: var(--default-fadecolor);
+    color: var(--default-navbar);
+    padding-top: 10px;
+    grid-area: end;
+}
+
+div.end a {
+    color: var(--default-navbar);
+}
+
+div.end a:hover {
+    color: var(--default-block1-bgcolor);
+}
+
+
+/* media */
+
+@media (max-width: 850px) {
+    /* body */
+    div.body .slide .carousel-item img {
+        height: 300px;
+    }
+    /* footer */
+    div.footer {
+        /* padding: 0 10px; */
+        grid-template-areas: "link contact" "comment comment" "end end";
+    }
+}
+
+@media (max-width: 550px) {
+    /* footer */
+    div.footer {
+        grid-template-areas: "link" "contact" "comment" "end";
+    }
+}

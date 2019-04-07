@@ -1,0 +1,1553 @@
+/*
+Theme Name: 	KAIPTC Child
+Theme URI: 		https://kaiptc.org
+Author: 		PixDev Limited
+Author URI: 	http://pixdev.net
+Description:	Child Theme for KAIPTC Theme
+Template:		kaiptc
+Version: 		1.6
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.intense ul {
+    list-style: square outside;
+    margin-left: 26px;
+}
+
+.intense strong a {
+    color: #008000;
+	text-decoration: underline;
+}
+
+.intense strong a:visited {
+	color: #008000;
+}
+
+.intense strong a:focus {
+	color: #008000;
+}
+
+#Subheader {
+	background-color: rgba(252, 252, 252, 0) !important;
+}
+
+.wp-playlist-light {
+    background: #ffdb1c;
+    color: #333333;
+}
+
+.wp-playlist {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0px 0 18px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wp-playlist-item {
+    border-bottom: 0; 
+}
+
+.kaiptc-gallery .ui-tabs .ui-tabs-panel {
+    padding: 15px 15px 20px;
+}
+
+.kaiptc-gallery .ui-tabs .ui-tabs-nav li a {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 14px 30px !important;
+}
+
+/*.owl-theme .owl-controls {
+    margin-left: -100px;
+}*/
+
+.pum-content {
+	padding-top: 20px;
+	font-weight: 300;
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_title_spun2_0 {
+    color: #4c80b1 !important;
+    font-weight: 500 !important;
+}
+
+.g-board .wp-caption-text {
+    background: none;
+    color: #545454;
+    font-size: 100%;
+    font-style: normal;
+}
+
+.faq .question .title {
+    padding: 20px 40px 20px 80px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.legends ul.list_check li {
+    background: none !important;
+}
+
+.legends li.legends-pso {
+    border-left: 15px solid #5d9ad3;
+}
+
+.legends li.legends-cm {
+    border-left: 15px solid #00af52;
+}
+
+.legends li.legends-pss {
+    border-left: 15px solid #ffda19;
+}
+
+.legends ul.list_check li {
+    position: relative;
+    margin: 0 0 20px 0;
+    padding-left: 15px;
+}
+
+.ngg-album-compactbox:after, .ngg-album-compactbox:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid gainsboro !important;
+}
+
+.ngg-album-compact h4 .ngg-album-desc {
+    overflow: hidden;
+    display: block;
+    height: 25px !important;
+}
+
+.ngg-album-compactbox .Thumb {
+    border: 1px solid #b7b7b7!important;
+}
+
+.offer .slider_pagination {
+	display: none !important;
+}
+
+.offer .offer_li .desc_wrapper {
+	background: #f7f7f7 !important;
+    float: left;
+    width: 90%;
+	margin: 0px;
+    padding: 35px 35px;
+	border: 1px solid #d7d7d7;
+}
+
+
+.offer .offer_li .desc_wrapper .title h3 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    padding-top: 3px;
+    color: #4c80b1;
+}
+
+.offer .offer_li .desc p {
+    font-size: 20px !important;
+	line-height: 28px !important;
+}
+
+.aca-alum .offer .offer_li .desc p {
+    font-size: 16px !important;
+	line-height: 24px !important;
+}
+
+.admin-page {
+	border: 1px solid #e0e0e0;
+}
+
+.ooc-page {
+	border: 1px solid #e0e0e0;
+}
+
+.post-header .title_wrapper h1 {
+    font-size: 50px;
+    line-height: 57px;
+	padding-top: 30px;
+}
+
+.title_wrapper .post-meta {
+	display: none;
+}
+
+.Latest_news ul li .photo {
+    width: 33%;
+    border-right-width: 0px;
+    border-style: solid;
+}
+
+.Latest_news ul li.has-post-thumbnail .desc {
+    margin-left: 35%;
+    width: 67%;
+    padding-left: 20px;
+}
+
+.Latest_news ul li {
+    margin: 0 0 50px;
+}
+
+.kaiptc-press .image_frame .image_wrapper .image_links {
+    display: none;
+}
+
+.kaiptc-press .post-footer {
+	display: none;
+}
+
+.kaiptc-press .post-desc {
+    padding: 0px 0 0 20px;
+}
+
+.kaiptc-press .image_frame, .wp-caption {
+    border-width: 0px;
+}
+
+.image_frame .image_wrapper .image_links {
+    display: none;
+}
+
+.pubs .sliding_box .photo_wrapper {
+    /*border: 1px solid #bdbdbd !important;*/
+	padding-bottom: 25px;
+}
+
+.pubs .sliding_box .desc_wrapper h4 {
+    font-size: 16px;
+}
+
+.trailer_box .desc {
+    background: rgba(5, 65, 110, 0.7);
+}
+
+.trailer_box .desc .subtitle {
+    background-color: #ffdb1c !important;
+	color: #545454;
+}
+
+.trailer_box img.scale-with-grid {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #d7d7d7;
+}
+
+h1 {
+    font-family: 'Oswald', Arial, Tahoma, sans-serif !important;
+}
+
+.intense.btn-xs {
+    padding: 15px 30px !important;
+    font-size: 20px !important;
+}
+
+
+.pso h4 {
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.pso .sliding_box .desc_wrapper {
+    background: #5d9ad3;
+}
+
+.pso .sliding_box .desc_wrapper:after {
+    border-bottom-color: #5d9ad3;
+}
+
+.cm h4 {
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.cm .sliding_box .desc_wrapper {
+    background: #00af52;
+}
+
+.cm .sliding_box .desc_wrapper:after {
+    border-bottom-color: #00af52;
+}
+
+.pss h4 {
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+	color: #444 !important;
+}
+
+.pss .sliding_box .desc_wrapper {
+    background: #ffda19;
+}
+
+.pss .sliding_box .desc_wrapper:after {
+    border-bottom-color: #ffda19;
+}
+
+.ext-pub .ui-tabs .ui-tabs-nav li a {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    padding: 20px 45px !important;
+}
+
+.int-fact .accordion .question {
+	border-color: rgba(255, 219, 28, 0.5);	
+	border-width: 0;
+}
+
+.int-fact .accordion .question .title {
+    padding: 10px 14px 10px 60px;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    border-width: 0;
+    border-style: solid;
+    cursor: pointer;
+    background-image: none;
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+.int-fact {
+	border: 1px solid #e0e0e0;
+}
+
+.int-fact .wp-caption-text {
+    background: none;
+    color: #74a1ca;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.short-courses {
+	padding:25px; 
+	border: 1px solid #e0e0e0;
+}
+
+.kaiptc-events .blog_slider.flat .blog_slider_ul li .item_wrapper .date_label {
+	display: none;
+}
+
+.kaiptc-events .blog_slider.flat .blog_slider_ul li .item_wrapper .desc {
+	padding: 0 10px;
+}
+
+.kaiptc-events .blog_slider.flat .blog_slider_ul li .item_wrapper .image_frame {
+    border-width: 8px;
+    border-style: solid;
+}
+
+.kaiptc-events hr {
+	height: 10px;
+}
+	
+.a-staff .accordion .question .title {
+    padding: 16px 16px 16px 60px;
+    font-size: 18px;
+    font-weight: 500;
+	background-image: url(http://www.kaiptc.org/wp-content/uploads/2017/04/bg_panel.png);
+}
+
+.a-staff .accordion .question .title {
+    color: #ffffff;
+}
+
+.a-staff .accordion .question.active .title {
+    color: #ffdb1c;
+}
+
+.a-staff .accordion .question .title > .acc-icon-plus, .a-staff .accordion .question .title > .acc-icon-minus {
+	color: #ffffff;
+}
+
+.a-staff .accordion .question.active .title > .acc-icon-plus, .a-staff .accordion .question.active .title > .acc-icon-minus {
+	color: #ffdb1c;
+}
+
+.excom .sliding_box .desc_wrapper {
+    background: #444;
+}
+
+.excom .sliding_box .desc_wrapper:after {
+    border-bottom-color: #444;
+}
+
+.excom .sliding_box .desc_wrapper  h4{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.excom .sliding_box .desc_wrapper  h4 span{
+    font-size: 13px;
+    line-height: 17px;
+	color: #ffdb1c;
+	font-style: italic;
+}
+
+.team .desc_wrapper p.subtitle {
+	color: #4c80b1 !important;
+}
+
+.team .image_frame {
+    border-color: #fcfcfc;
+	background: #d7d7d7;
+}
+
+.team {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/kaiptc_bg-250px.png) repeat;
+    padding: 15px;
+}
+
+.facilities .infobox {
+    background-color: #444;
+}
+
+.facilities .infobox ul li {
+    padding: 9px 0 9px 50px !important;
+}
+
+.facilities .infobox ul li:before {
+    background: url(http://www.kaiptc.org/wp-content/uploads/2017/04/yellow_list_check.png) no-repeat;
+}
+
+.gform_wrapper {
+    margin: 16px 0 0 0 !important;
+}
+
+.gform_wrapper .top_label .gfield_label {
+    display: none !important;
+}
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
+    display: none !important;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: 80% !important;
+    font-family: inherit;
+    padding: 10px 10px !important;
+}
+
+
+.gform_wrapper.gf_browser_chrome select {
+    padding: 9px !important;
+}
+
+.gform_wrapper select, .gform_wrapper textarea {
+    font-size: 80% !important;
+}
+
+.widget-area::before {
+    background: none;
+}
+
+b, strong, dt {
+    font-weight: 500 !important;
+}
+
+.image_frame.no_border .wp-caption-text, .if-zoom .image_frame:not(.has_border) .wp-caption-text {
+    padding: 10px 17px;
+}
+
+.partners .wp-caption-text {
+    background: none;
+    color: #444444;
+    font-size: 100%;
+}
+
+.wp-caption-text {
+    background: none;
+    color: #A6A6A6;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.date_label, .timeline_items li h3 span {
+    color: #7aaad6;
+}
+
+#Top_bar .menu li ul li a span {
+    font-size: 88%;
+}
+
+#Top_bar .menu li ul li a {
+    padding: 7px 10px 8px 20px;
+}
+	
+.blog_slider .desc h4 {
+	color: #333333 !important;
+	font-size: 20px;
+    line-height: 23px;
+}
+
+.kaiptc-events .blog_slider .desc h4 {
+	color: #333333 !important;
+	font-size: 25px;
+    line-height: 30px;
+}
+
+a.button .button_label {
+    padding: 11px 20px;
+    font-weight: 500;
+}
+
+
+h4 span{
+	font-weight: 300;
+}
+
+hr {
+	margin: 15px auto;
+}
+
+#Action_bar {
+    z-index: 3;
+}
+
+.social_links_menu {
+	position: absolute;
+    margin-left: 45%;
+    top: 70px;
+}
+
+.social_links_menu .social-menu li {
+    display: inline-block;
+    margin-right: 6px;
+    padding-right: 6px;
+    border-right: 1px solid rgba(255,255,255,.1);
+}
+
+#Top_bar.is-sticky .social_links_menu {
+	display: none;
+}
+
+.header-stack #Top_bar .top_bar_right {
+    position: absolute;
+    bottom: 0;
+    top: 55px;
+    height: 0;
+}
+
+#Top_bar.is-sticky .top_bar_right {
+	display: none !important;
+}
+
+#Top_bar a#search_button {
+    float: right;
+	top: 7px;
+}
+
+#Top_bar a#search_button.has-input input {
+    width: 300px;
+}
+
+#Top_bar a#search_button.has-input input[type="text"] {
+	color: #626262;
+    background-color: #f7f7f7;
+    border-color: #EBEBEB;
+	border-radius: 18px;
+}
+
+#Top_bar .wpml-languages {
+    margin-right: 50px;
+}
+
+/*#Top_bar .menu > li ul {
+    opacity: 0.96;
+}
+*/
+
+.course-page{
+	margin: 0 auto 30px;
+}
+
+.the_content_wrapper {
+    margin: 18px 4% 40px 1%;
+}
+
+.with_aside .sections_group {
+    padding-top: 0px;
+}
+
+.essb_links {
+    word-wrap: normal!important;
+    clear: both;
+    margin: 1em 0 2em;
+}
+
+body.header-stack:not(.template-slider) #Header {
+    min-height: 50px !important;
+}
+
+.footer_copy .developer {
+    float: right;
+}
+
+#Footer .footer_copy {
+    font-size: 80%;
+}
+
+#Footer h4 {
+	font-size: 18px;
+    line-height: 23px;
+	margin-bottom: 5px;
+}
+
+#Footer .footer_copy .one {
+    margin-bottom: 0;
+	padding-top: 20px;
+}
+
+#Footer .footer_copy {
+    background: #303030;
+}
+
+#Footer a {
+    color: #cccccc !important;
+    font-size: 92%;
+}
+
+#Footer a:hover {
+    text-decoration: none;
+	color: #ffdb1c !important;
+}
+
+#Footer .widgets_wrapper .widget {
+    padding: 30px 0;
+    margin-bottom: 0;
+}
+
+#text-6 .widget {
+    margin-bottom: 0px;
+}
+
+#text-14 .widget .widget_text {
+    padding-bottom: 0px !important;
+}
+
+.widget_nav_menu ul {
+    list-style-type: none;
+    padding: 5px 10px 5px 0px;
+    background: none;
+}
+
+.widget_nav_menu ul li:after {
+    display: none;
+}
+
+.widget_nav_menu ul li a {
+    padding: 1px 0 1px 5px;
+}
+
+.widget-area.lines-boxed .widget:after {
+   display: none;
+}
+
+.header-stack.header-center #Top_bar .logo {
+    text-align: left !important;
+}
+
+.header-stack.header-center .menu_wrapper {
+    background: #7aaad6;
+}
+
+.header-stack.header-center .is-sticky .menu_wrapper {
+    background: none !important;
+    margin-top: -60px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+.header-stack.header-center .is-sticky .menu_wrapper {
+    margin-top: -66px;
+}
+
+}
+
+.header-stack.header-center .is-sticky #menu {
+    margin-left: 150px !important;
+}
+
+#Header .secondary-menu > li {
+    padding: 6px 15px;
+	font-size: 70%;
+    font-weight: 400;
+}
+
+#Header .secondary-menu > li {
+	-webkit-border-radius: 0px;
+    border-radius: 0px;
+	border-right-width: 1px;
+	line-height: 3px;
+    border-style: solid;
+	border-right-color: #e5c310;
+}
+
+#Header .secondary-menu > li:last-child{
+	border: 0;
+}
+
+#Header .secondary-menu > li.hover, #Header .secondary-menu li ul {
+    background: rgba(249, 249, 249, 0);
+}
+
+#Header .secondary-menu > li.hover {
+	font-weight: 600;
+	/*text-shadow: 1px 1px 2px #ffffff;*/
+}
+
+
+.header-stack #Action_bar {
+    position: absolute !important;
+	background-color: rgba(255, 255, 255, 0) !important;
+}
+
+#Top_bar .menu > li > a span:not(.description) {
+    display: block;
+    line-height: 45px;
+    padding: 0 28px;
+}
+
+#Header .secondary-menu > li > a {
+    color: #000000;
+}
+
+
+#Header .top_bar_left, .header-classic #Top_bar, .header-plain #Top_bar, .header-stack #Top_bar, .header-split #Top_bar, .header-fixed #Top_bar, .header-below #Top_bar, #Header_creative, #Top_bar {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#Header #menu {
+	background: #7aaad6 !important;
+}
+
+
+.welcome .accordion .question .title {
+    padding: 20px 14px 14px 22px;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 600;
+    border-width: 0;
+    border-style: none;
+}
+
+.welcome .accordion .question.active .title {
+    background: #ffffff;
+}
+
+.welcome .accordion .question .title:before {
+	display:none;
+}
+
+.welcome .accordion .question .title > .acc-icon-minus {
+    display: none;
+}
+
+.welcome .accordion .question.active .title > .acc-icon-minus {
+    display: none;
+}
+
+.welcome .accordion .question .title > .acc-icon-plus {
+    display: none;
+}
+
+.welcome .accordion .question.active .title > .acc-icon-plus {
+    display: none;
+}
+
+.welcome .accordion .question {
+    margin-bottom: 0px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.welcome .accordion .question.active .title {
+    color: #7aaad6;
+}
+
+.welcome .accordion .question .answer {
+    background-image: none;
+}
+
+.header-stack #Top_bar .logo {
+    border-bottom-width: 0;
+}
+
+#Top_bar.is-sticky {
+    background: #7aaad6 !important;
+}
+
+#Top_bar.is-sticky .menu > li > a span {
+    padding: 0 16px !important;
+	font-size: 95% !important;
+}
+
+#search_button i.icon-search-fine {
+	float: right;
+    margin-left: -45px;
+    position: relative;
+    z-index: 20;
+}
+
+#Top_bar .wpml-languages img {
+	margin-right: 10px;
+}
+
+#Top_bar .wpml-languages ul.wpml-lang-dropdown li a {
+	text-align: left;
+    padding: 4px 10px;
+}
+
+#Subheader {
+    background-color: rgba(0,0,0,.02);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    position: initial;
+}
+
+#Subheader::after{
+	display: none;
+}
+
+#Subheader .title {
+    width: auto !important;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #ffdb1c;
+	display: none;
+}
+
+
+#Subheader ul.breadcrumbs {
+    font-size: 0.75em !important;
+	width: auto !important;
+	padding: 3px 10px !important;
+	background: #ffdb1c !important;
+	float: left !important;
+	margin-bottom: 0px;
+}
+
+#Subheader ul.breadcrumbs li span {
+    margin: 0 3px;
+}
+
+#Subheader ul.breadcrumbs li, #Subheader ul.breadcrumbs li a {
+    color: #000000 !important;
+}
+
+
+.advanced-sidebar-menu ul {
+    margin: 0 0 0 12px;
+}
+
+.advanced-sidebar-menu ul li a {
+    font-weight: normal !important;
+    font-size: 100% !important;
+    text-decoration: none !important;
+}
+
+.advanced-sidebar-menu li.current_page_item a {
+    font-weight: bold !important;
+	color: #ffdb1c !important;
+}
+
+.advanced-sidebar-menu li a:hover {
+    font-weight: bold !important;
+	color: #ffdb1c !important;
+}
+
+.advanced-sidebar-menu ul li {
+    padding: 3px 2px;
+}
+
+.aside_right .widget-area {
+    border-left-width: 0px;
+}
+
+
+/* Side bar Menu 5 */
+#advanced_sidebar_menu-5 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-5 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+.advanced-sidebar-menu ul li a {
+    color: #f7f7f7 !important;
+}
+
+.child-sidebar-menu {
+	color: #ffffff !important;
+}
+
+#text-9 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 5 End */
+
+
+#text-12 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+
+/* Side bar Menu 8*/
+#advanced_sidebar_menu-8 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-8 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+.advanced-sidebar-menu ul li a {
+    color: #f7f7f7 !important;
+}
+
+.child-sidebar-menu {
+	color: #ffffff !important;
+}
+
+#text-10 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 8 End*/
+
+
+/* Side bar Menu 2*/
+#advanced_sidebar_menu-2 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-2 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+.advanced-sidebar-menu ul li a {
+    color: #f7f7f7 !important;
+}
+
+.child-sidebar-menu {
+	color: #ffdb1c !important;
+}
+
+#text-4 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 2 End*/
+
+
+/* Side bar Menu 10*/
+#advanced_sidebar_menu-10 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-10 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+.advanced-sidebar-menu ul li a {
+    color: #f7f7f7 !important;
+}
+
+.child-sidebar-menu {
+	color: #ffdb1c !important;
+}
+
+#text-15 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 10 End*/
+
+
+/* Side bar Menu 3*/
+#advanced_sidebar_menu-3 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-3 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+#text-5 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 3 End*/
+
+
+
+/* Side bar Menu 6*/
+#advanced_sidebar_menu-6 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-6 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+#text-5 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 6 End*/
+
+
+
+
+/* Side bar Menu 7*/
+#advanced_sidebar_menu-7 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-7 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+#text-17 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#text-17 input[type="submit"] {
+    background-color: #fcd91d !important;
+    color: #333;
+}
+
+#text-17 h3 {
+    color: #fff;
+}
+
+#text-16 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 7 End*/
+
+
+
+/* Side bar Menu 9*/
+#advanced_sidebar_menu-9 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-9 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+#text-5 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/yellow-pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+/* Side bar Menu 9 End*/
+
+
+/* Side bar Menu 4*/
+#advanced_sidebar_menu-4 {
+	background: url(http://www.kaiptc.org/wp-content/uploads/2016/12/pattern.jpg) !important;
+    padding: 20px !important;
+	border: 1px solid #cce3f8;
+}
+
+#advanced_sidebar_menu-4 h3 {
+    font-size: 23px;
+    line-height: 27px;
+	color: #ffffff;
+}
+
+#text-6 .widget {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#text-7 {
+	background: #eee !important;
+    padding: 20px !important;
+}
+
+#text-7 h3 {
+	font-size: 23px;
+    line-height: 27px;
+}
+
+#text-18 {
+	background: #eee !important;
+    padding: 20px !important;
+}
+
+#text-18 h3 {
+	font-size: 23px;
+    line-height: 27px;
+}
+
+
+#text-8 {
+	background: #eee !important;
+    padding: 20px !important;
+}
+
+#text-8 h3 {
+	font-size: 23px;
+    line-height: 27px;
+}
+
+
+/* Side bar Menu 9 End*/
+
+/*.the_content_wrapper p { 
+	text-align: justify !important; 
+} */
+
+.post-nav {
+    padding-left: 10px;
+    display: none;
+}
+
+
+.home-pubs .sliding_box .desc_wrapper {
+    display: none;
+}
+
+.news-sub {
+	margin-bottom: 10px;
+}
+
+.news-sub input[type="submit"] {
+	background-color: #feda1b;
+    color: #333333;
+	margin-bottom: 15px;
+}
+
+.news-sub input[type="email"] {
+	width: 165px;
+}
+
+.news-sub input[type="submit"] {
+    padding: 11px 12px;
+}
+
+.mc4wp-form input {
+    margin: 0px !important;
+}
+
+.m-programmes .accordion .question.active .title {
+    color: #444;
+}
+
+.m-programmes .accordion .question {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.m-programmes .accordion .question .title {
+    padding: 7px 12px 7px 60px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #444;
+    background-image: url(../kaiptc-child/images/m_bg_panel.png);
+}
+
+.m-programmes .accordion .question .answer {
+    padding: 26px 60px 20px;
+}
+
+.m-programmes .ui-tabs .ui-tabs-nav li.ui-state-active a {
+	color: #44444f;
+}
+
+.m-programmes .ui-tabs .ui-tabs-nav li.ui-state-active a:after {
+    background: #ffdb1c;
+}
+
+.facts ul {
+    list-style: disc outside;
+    list-style-image: url(http://www.kaiptc.org/wp-content/themes/kaiptc-child/images/icons/facts.png);
+    margin: 0 0 15px 30px;
+}
+
+/*
+.facts .ui-tabs-panel ul li {
+    margin-bottom: 25px;
+}
+
+.facts .ui-tabs .ui-tabs-nav li a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    padding: 40px 30px !important;
+}
+
+
+.blog_slider_ul li .item_wrapper {
+    margin: 10px 10px !important;
+    position: relative;
+}
+
+.blog_slider_ul li {
+    float: left;
+    list-style: none;
+    margin: 0 20px!important;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+}
+*/
+
+
+
+
+@media only screen and (min-width: 1240px){
+.section_wrapper, .full-menu-container {
+    max-width: 100%;
+}
+
+#Top_bar .secondary_menu_wrapper {
+    position: absolute;
+	right: 0px !important;
+    top: 0 !important;
+    display: block;
+}
+
+.secondary_menu_wrapper {
+	float: right;
+	background: #ffdb1c;
+	border-radius: 0px 0px 25px 25px;
+	padding: 8px 15px;
+	z-index: 2;
+}
+
+.secondary_menu_wrapper .support{
+	background: #444444;
+    border-radius: 0px 0px 25px 0px !important;
+    padding: 14px 25px 14px 14px !important;
+    z-index: 3 !important;
+    margin-top: -8px !important;
+    margin-bottom: -8px !important;
+    margin-right: -15px !important;
+}
+
+.secondary_menu_wrapper .support a {
+    color: #ffffff !important;
+}
+}
+
+/* Resposive Mobile */
+@media only screen and (max-width: 480px) {
+h1  {
+    font-size: 30px !important;
+    line-height: 37px !important;
+}	
+	
+#Top_bar {
+	background: #7aaad6 !important;
+    border-bottom: solid 1px #ffdd1c !important;
+}
+
+#Top_bar .wpml-languages {
+    top: 65px;
+	margin-right: 220px;
+}
+
+body.header-stack:not(.template-slider) #Header {
+    min-height: 100px !important;
+}
+
+#Top_bar a#search_button {
+    top: 7px;
+    display: none;
+}
+
+#Top_bar a.responsive-menu-toggle {
+    top: 20px !important;
+}
+
+#Top_bar .responsive-menu-toggle {
+	color: #7aaad6 !important;
+}
+
+.social_links_menu {
+    display: none
+}
+
+#Top_bar .menu_wrapper {
+	margin-top: 50px !important;
+}
+
+#Subheader {
+	display: none;
+}
+
+.m-programmes .accordion .question .answer {
+    padding: 21px 10px 20px;
+}
+
+.section_wrapper .mcb-wrap {
+    padding: 0px !important;
+}
+
+a.button.button_full_width .button_icon {
+    display: inline-block;
+    float: left !important;
+    background: none;
+}
+
+a.button.button_full_width .button_label {
+    display: block !important;
+    float: none;
+}
+
+.intense.btn-md {
+    padding: 3px 6px !important;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+/*#Top_bar {
+    background: #7aaad6 !important;
+}*/
+
+#Top_bar #logo {
+    padding: 50px 0 20px !important;
+}
+
+.social_links_menu {
+    position: absolute;
+    margin-left: 78%;
+    top: 120px;
+}
+#Top_bar .secondary_menu_wrapper {
+	right: 25px !important;
+}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 481px){
+.header-stack #Top_bar .top_bar_right {
+    position: absolute;
+    bottom: 0;
+    top: 10px;
+    height: 0;
+}
+
+#Top_bar .wpml-languages {
+    top: 4px;
+	margin-right: 30px;
+}
+
+#Top_bar a#search_button {
+    float: right;
+    top: 10px;
+    margin-right: 10px;
+}
+
+#Top_bar a.responsive-menu-toggle {
+    top: -35px !important;
+}
+
+#Top_bar .responsive-menu-toggle {
+	color: #7aaad6 !important;
+}
+
+#Top_bar a#search_button.has-input input {
+    width: 160px !important;
+}
+
+.social_links_menu {
+    margin-left: 55%;
+    top: 70px;
+}
+
+.section_wrapper .mcb-wrap {
+    padding: 0px !important;
+}
+
+a.button.button_full_width .button_icon {
+    display: inline-block;
+    float: left !important;
+    background: none;
+}
+
+a.button.button_full_width .button_label {
+    display: block !important;
+    float: none;
+}
+
+.intense.btn-md {
+    padding: 3px 6px !important;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+body.header-stack:not(.template-slider) #Header {
+    min-height: 195px !important;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+
+body.header-stack:not(.template-slider) #Header {
+    min-height: 185px !important;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+
+#Top_bar a#search_button.has-input input {
+    width: 200px;
+}
+
+#Top_bar .secondary_menu_wrapper {
+    position: absolute;
+	right: 0px !important;
+    top: 0 !important;
+    display: block;
+}
+
+.secondary_menu_wrapper {
+	float: right;
+	background: #ffdb1c;
+	border-radius: 0px 0px 25px 25px;
+	padding: 8px 5px;
+	z-index: 2;
+}
+
+#Header .secondary-menu > li {
+    padding: 8px 9px;
+    font-size: 70%;
+    font-weight: 400;
+}
+
+.blog_slider .slider_pager {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+}
+#Content {
+    padding-top: 45px;
+}
+
+table tr:first-child td {
+    background: #7aaad6;
+    color: #ffffff;
+}
+
+.kaiptc-psop .sliding_box em {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.kaiptc-cmp .story_box {
+    padding: 0 3%;
+}
+
+.kaiptc-cmp .story_box .desc_wrapper h3 {
+    margin-left: 0px;
+    margin-top: 9px;
+}
+
+.kaiptc-cmp .story_box .desc_wrapper {
+    margin-right: 0;
+}
+
+.counter {
+    background-image: none;
+}
+
+.counter .desc_wrapper .number-wrapper {
+    font-size: 50px;
+    line-height: 17px;
+    margin-top: 28px;
+    font-weight: 500;
+	color: #002e5f;
+}
+
+.counter .desc_wrapper .number-wrapper .label {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.counter.counter_horizontal {
+    text-align: left;
+    min-height: 64px;
+}
+
+.gform_wrapper .gform_footer p{
+    display: none !important;
+}
+
+.gform_wrapper p{
+    display: none !important;
+}
